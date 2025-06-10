@@ -40,7 +40,8 @@ public class Card {
         throw new IllegalArgumentException("Invalid card: " + suit + " " + value);
     }
 }
-    /**
+    /*
+   *
      * @return the suit
      */
     public String getSuit() {
